@@ -9435,7 +9435,7 @@ msgstr "تمكين تتبع الموقع داخل التطبيق"
 #: frappe/public/js/frappe/model/indicator.js:117
 #: frappe/website/doctype/portal_menu_item/portal_menu_item.json
 msgid "Enabled"
-msgstr "تمكين"
+msgstr "مُفعّل"
 
 #: frappe/core/doctype/rq_job/rq_job_list.js:29
 msgid "Enabled Scheduler"

@@ -20023,7 +20023,7 @@ msgstr "قم بتمكين تطبيق اتفاقية مستوى الخدمة عل
 #: erpnext/stock/doctype/price_list/price_list.json
 #: erpnext/support/doctype/service_level_agreement/service_level_agreement.json
 msgid "Enabled"
-msgstr "تمكين"
+msgstr "مُفعّل"
 
 #. Description of the 'Fetch Timesheet in Sales Invoice' (Check) field in
 #. DocType 'Projects Settings'

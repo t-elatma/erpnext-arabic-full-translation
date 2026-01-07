@@ -5164,7 +5164,7 @@ msgstr "تمكين الإشعارات الفورية"
 #: hrms/hr/doctype/daily_work_summary_group/daily_work_summary_group.json
 #: hrms/hr/doctype/shift_schedule_assignment/shift_schedule_assignment.json
 #: hrms/payroll/doctype/salary_slip/salary_slip.js:285
-msgid "Enabled"
+msgid "مُفعّل"
 msgstr "تمكين"
 
 #: frontend/src/views/AppSettings.vue:40
