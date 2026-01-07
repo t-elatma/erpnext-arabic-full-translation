@@ -1,0 +1,415 @@
+"<p>This will create a new Sales Invoice Additional Fields document for the invoice '{0}' and submit it to ZATCA. <strong>Make sure you have updated any bad configuration that lead to the initial rejection</strong>.</p><p>Do you want to proceed?</p>","<p>سيقوم هذا بإنشاء مستند حقول إضافية لفاتورة المبيعات للفاتورة '{0}' وإرساله إلى هيئة الزكاة. <strong>تأكد من تحديث أي إعدادات خاطئة أدت إلى الرفض الأولي</strong>.</p><p>هل ترغب في المتابعة؟</p>"
+"<pre style=""display:inline;"">JAVA_HOME</pre> path used for running the CLI. Leave blank to use the default system Java installation","مسار <pre style=""display:inline;"">JAVA_HOME</pre> المستخدم لتشغيل واجهة سطر الأوامر (CLI). اتركه فارغاً لاستخدام تثبيت Java الافتراضي للنظام"
+About,حول
+Accepted,مقبول
+Accepted with warnings,مقبول مع وجود تحذيرات
+Active,نشط
+Additional Buyer IDs,معرفات المشتري الإضافية
+Additional IDs,معرفات إضافية
+Additional Number,الرقم الإضافي
+Additional Seller IDs,معرفات البائع الإضافية
+Additional Street,الشارع الإضافي
+Additional Street Name,اسم الشارع الإضافي
+Address,العنوان
+Administrator,مسؤول النظام
+Allowance Indicator,مؤشر الخصم
+Allowance VAT Category Code,رمز فئة الضريبة للخصم
+Amended From,معدل من
+Automatic,تلقائي
+Automatic Setup Configuration,تكوين الإعداد التلقائي
+Batches,دفعات
+Both,كلاهما
+Building Number,رقم المبنى
+Business Settings,إعدادات الأعمال
+Business Settings ID Reference,مرجع معرف إعدادات الأعمال
+Buyer,المشتري
+Buyer Address Details,تفاصيل عنوان المشتري
+Buyer ID,معرف المشتري
+Buyer VAT Registration Number,الرقم الضريبي للمشتري
+CLI,واجهة سطر الأوامر (CLI)
+CLI Path,مسار CLI
+CLI Setup,إعداد CLI
+CSR,طلب توقيع الشهادة (CSR)
+Charge Indicator,مؤشر الرسوم
+Charge VAT Category Code,رمز فئة الضريبة للرسوم
+Check ZATCA CLI,التحقق من ZATCA CLI
+City,المدينة
+Clearance switched off,تم إيقاف الفسح (Clearance)
+Code for Allowance Reason,رمز سبب الخصم
+Company,الشركة
+Company Address,عنوان الشركة
+Company Category,فئة الشركة
+Company Unit,وحدة الشركة
+Company Unit Serial,التسلسل لوحدة الشركة
+Compliance API Error,خطأ في واجهة برمجة تطبيقات الامتثال (API)
+Compliance Request ID,معرف طلب الامتثال
+Configuration,الإعدادات
+Corrected,مصححة
+Could not find signed XML,تعذر العثور على ملف XML الموقع
+Country,الدولة
+Country Code,رمز الدولة
+Currency,العملة
+Device ID,معرف الجهاز
+Disabled,معطل
+District,الحي
+Document Level,مستوى المستند
+Documentation,الوثائق
+Download XML,تحميل XML
+Download and Set Up ZATCA CLI,تحميل وإعداد ZATCA CLI
+E-invoice File,ملف الفاتورة الإلكترونية
+EGS Type,نوع وحدة إنشاء الفواتير (EGS)
+"EGS/device identifier. For ERPNext, enter ""ERPNext"" or similar. For POS devices, enter the POS device ID shown in LavaDo. <br>
+From the home screen: Settings (gear button top-left/right) -&gt; More Info and look for the device ID","معرف EGS/الجهاز. بالنسبة لـ ERPNext، أدخل ""ERPNext"" أو ما شابه. بالنسبة لأجهزة نقاط البيع، أدخل معرف جهاز POS الظاهر في LavaDo. <br>
+من الشاشة الرئيسية: الإعدادات (زر الترس في أعلى اليسار/اليمين) -&gt; مزيد من المعلومات وابحث عن معرف الجهاز"
+EInvoicing Sync,مزامنة الفوترة الإلكترونية
+ERPNext,ERPNext
+Enable ZATCA Integration,تفعيل الربط مع هيئة الزكاة
+Errors,الأخطاء
+Fatoora Server URL,رابط خادم الفاتورة
+Fix Rejection,إصلاح الرفض
+"Format: <pre style=""display:inline;"">1-Solution Provider Name|2-Model or version|3-Serial</pre>
+<br>
+Example: <pre style=""display:inline;"">1-ERPNext|2-15|3-1</pre>","التنسيق: <pre style=""display:inline;"">1-اسم مزود الحل|2-الموديل أو الإصدار|3-التسلسل</pre>
+<br>
+مثال: <pre style=""display:inline;"">1-ERPNext|2-15|3-1</pre>"
+"Format: <pre style=""display:inline;"">1-Solution Provider Name|2-Model or version|3-Serial</pre>
+<br>
+Example: <pre style=""display:inline;"">1-ERPNext|2-15|3-1</pre> or <br><pre style=""display:inline;"">1-Sunmi|2-Sunmi Pro v2s|3-V222201B00815</pre>","التنسيق: <pre style=""display:inline;"">1-اسم مزود الحل|2-الموديل أو الإصدار|3-التسلسل</pre>
+<br>
+مثال: <pre style=""display:inline;"">1-ERPNext|2-15|3-1</pre> أو <br><pre style=""display:inline;"">1-Sunmi|2-Sunmi Pro v2s|3-V222201B00815</pre>"
+Frappe School,أكاديمية Frappe
+Frappe Support,دعم Frappe
+Generate a CSR and make a compliance CSID request through ZATCA.,إنشاء CSR وطلب CSID للامتثال من خلال ZATCA.
+Get Production CSID,الحصول على CSID للإنتاج
+"If enabled, validates the generated ZATCA XML when creating Sales Invoice Additional Fields. This has a performance impact, so it's recommended to enable only for testing or troubleshooting problems.","إذا تم تفعيله، يتم التحقق من صحة ملف XML الخاص بـ ZATCA عند إنشاء حقول إضافية لفاتورة المبيعات. هذا يؤثر على الأداء، لذا يوصى بتفعيله فقط للاختبار أو استكشاف الأخطاء."
+"If left empty, JRE 11 will be downloaded from <a href=""https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jre_x64_linux_hotspot_11.0.23_9.tar.gz"">https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23+9/OpenJDK11U-jre_x64_linux_hotspot_11.0.23_9.tar.gz</a>","إذا ترك فارغاً، سيتم تحميل JRE 11 من <a href=""https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jre_x64_linux_hotspot_11.0.23_9.tar.gz"">https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23+9/OpenJDK11U-jre_x64_linux_hotspot_11.0.23_9.tar.gz</a>"
+"If left empty, the CLI will be downloaded from <a href=""https://github.com/lavaloon-eg/zatca-cli/releases/download/2.0.0/zatca-cli-2.0.0.zip"">https://github.com/lavaloon-eg/zatca-cli/releases/download/2.0.0/zatca-cli-2.0.0.zip</a>","إذا ترك فارغاً، سيتم تحميل CLI من <a href=""https://github.com/lavaloon-eg/zatca-cli/releases/download/2.0.0/zatca-cli-2.0.0.zip"">https://github.com/lavaloon-eg/zatca-cli/releases/download/2.0.0/zatca-cli-2.0.0.zip</a>"
+Integration,الربط
+Integration Status,حالة الربط
+Invoice,الفاتورة
+Invoice Additional Fields Reference,مرجع الحقول الإضافية للفاتورة
+Invoice Counter,عداد الفواتير
+Invoice Hash,تجزئة الفاتورة (Hash)
+Invoice Line Allowance Reason,سبب الخصم في بند الفاتورة
+Invoice Line Allowance Reason Code,رمز سبب الخصم في بند الفاتورة
+Invoice Line Charge Amount,مبلغ الرسوم في بند الفاتورة
+Invoice Line Charge Base Amount,المبلغ الأساسي للرسوم في بند الفاتورة
+Invoice Line Charge Base Amount Reason,سبب المبلغ الأساسي للرسوم في بند الفاتورة
+Invoice Line Charge Base Amount Reason Code,رمز سبب المبلغ الأساسي للرسوم في بند الفاتورة
+Invoice Line Charge Indicator,مؤشر الرسوم في بند الفاتورة
+Invoice Line Charge Percentage,نسبة الرسوم في بند الفاتورة
+Invoice QR,رمز QR للفاتورة
+Invoice Reference,مرجع الفاتورة
+Invoice Type Code,رمز نوع الفاتورة
+Invoice Type Transaction,معاملة نوع الفاتورة
+Invoice UUID,المعرف الفريد للفاتورة (UUID)
+Invoice XML,ملف XML للفاتورة
+Java Home,مسار Java Home
+KSA Compliance,الامتثال للمملكة العربية السعودية
+Keyboard Shortcuts,اختصارات لوحة المفاتيح
+Last Attempt,المحاولة الأخيرة
+Let the system decide (both),دع النظام يقرر (كلاهما)
+Live,حي / فعلي
+Log out,تسجيل الخروج
+Manual,يدوي
+Messages,الرسائل
+My Profile,ملفي الشخصي
+My Settings,إعداداتي
+Number of invoices for each business settings doc.,عدد الفواتير لكل مستند إعدادات أعمال
+OTP,رمز التحقق (OTP)
+Onboard,التأهيل
+Onboarding,التأهيل
+Onboarding completed successfully,تمت عملية التأهيل بنجاح
+Other Buyer IDs,معرفات المشتري الأخرى
+Override CLI Download URL,تجاوز رابط تحميل CLI
+Override JRE Download URL,تجاوز رابط تحميل JRE
+POS Device,جهاز نقاط البيع
+Payment Means Type Code,رمز نوع وسيلة الدفع
+Pending,معلق
+Perform Compliance Checks,إجراء فحوصات الامتثال
+Please Onboard first to generate a compliance request ID,يرجى إتمام التأهيل أولاً لإنشاء معرف طلب الامتثال
+Please choose a Tax Category,يرجى اختيار فئة ضريبية
+Please configure 'Fatoora Server URL',يرجى ضبط 'رابط خادم الفاتورة'
+Please configure 'Zatca CLI Path',يرجى ضبط 'مسار Zatca CLI'
+Please onboard first to generate a 'Compliance Request ID',يرجى إتمام التأهيل أولاً لإنشاء 'معرف طلب الامتثال'
+Please wait...,يرجى الانتظار...
+Postal Code,الرمز البريدي
+Precomputed,محسوب مسبقاً
+Precomputed Invoice,فاتورة محسوبة مسبقاً
+Prepayment ID,معرف الدفع المسبق
+Prepayment Issue Date,تاريخ إصدار الدفع المسبق
+Prepayment Issue Time,وقت إصدار الدفع المسبق
+Prepayment Type Code,رمز نوع الدفع المسبق
+Prepayment UUID,المعرف الفريد للدفع المسبق (UUID)
+Prepayment VAT Category Tax Amount,مبلغ الضريبة لفئة ضريبة الدفع المسبق
+Prepayment VAT Category Taxable Amount,المبلغ الخاضع للضريبة لفئة ضريبة الدفع المسبق
+Previous Invoice Hash,تجزئة الفاتورة السابقة
+Previous invoice hash for each business settings doc,تجزئة الفاتورة السابقة لكل مستند إعدادات أعمال
+Production CSID Error,خطأ في CSID للإنتاج
+Production CSID generated successfully,تم إنشاء CSID للإنتاج بنجاح
+Production Request ID,معرف طلب الإنتاج
+Production Secret,الرمز السري للإنتاج (Production Secret)
+Production Security Token,رمز أمان الإنتاج
+Province/State,المنطقة / المقاطعة
+QR Code,رمز الاستجابة السريعة (QR)
+QR Code Image,صورة رمز QR
+Qr Image Source,مصدر صورة QR
+Ready For Batch,جاهز للدفعات
+Reason for Allowance,سبب الخصم
+Reason for Charge,سبب الرسوم
+Reason for Charge Code,رمز سبب الرسوم
+Registration Type,نوع التسجيل
+Rejected,مرفوض
+Reload,تحديث
+Report an Issue,الإبلاغ عن مشكلة
+Resend,إعادة إرسال
+Sales Invoice,فاتورة مبيعات
+Sales Invoice Additional Fields,حقول إضافية لفاتورة المبيعات
+Secret,سر
+Security Token,رمز الأمان
+Select a date first.,اختر تاريخاً أولاً.
+Seller Details,تفاصيل البائع
+Seller ID,معرف البائع
+Seller Name,اسم البائع
+Session Defaults,الإعدادات الافتراضية للجلسة
+Simplified Tax Invoice,فاتورة ضريبية مبسطة
+Simplified Tax Invoices,الفواتير الضريبية المبسطة
+Standard Tax Invoice,فاتورة ضريبية قياسية
+Standard Tax Invoices,الفواتير الضريبية القياسية
+Start Invoices Syncing....,بدء مزامنة الفواتير...
+Status,الحالة
+Street,الشارع
+Street Name,اسم الشارع
+Success,نجاح
+Sum of Allowances,مجموع الخصومات
+Sum of Charges,مجموع الرسوم
+Supply End Date,تاريخ انتهاء التوريد
+Sync Invoices,مزامنة الفواتير
+Sync with ZATCA,مزامنة مع هيئة الزكاة
+System Manager,مدير النظام
+Tax Category Missing,فئة الضريبة مفقودة
+Tax Currency,عملة الضريبة
+"The URL for the ZATCA server to use. Use <pre style=""display:inline;"">https://gw-fatoora.zatca.gov.sa/e-invoicing/developer-portal/</pre> for the ZATCA sandbox (testing)","رابط خادم ZATCA المستخدم. استخدم <pre style=""display:inline;"">https://gw-fatoora.zatca.gov.sa/e-invoicing/developer-portal/</pre> للبيئة التجريبية (Sandbox)"
+The generated and signed invoice XML sent to ZATCA,ملف XML للفاتورة الذي تم إنشاؤه وتوقيعه وإرساله إلى ZATCA
+"The path to the executable for ZATCA CLI, e.g.<br>
+<pre style=""display:inline;"">/home/frappe/zatca-cli/bin/zatca-cli</pre>","مسار الملف التنفيذي لـ ZATCA CLI، مثال: <br>
+<pre style=""display:inline;"">/home/frappe/zatca-cli/bin/zatca-cli</pre>"
+This Action Is Not Allowed,هذا الإجراء غير مسموح به
+Toggle Full Width,تبديل العرض الكامل
+Toggle Theme,تبديل السمة
+Type Code,رمز النوع
+Type Name,اسم النوع
+Type Of Transaction,نوع المعاملة
+Type of Business Transactions,نوع معاملات الأعمال
+UUID,المعرف الفريد (UUID)
+Unit Common Name,الاسم الشائع للوحدة
+Unit Serial,تسلسل الوحدة
+"Use the compliance request from onboarding to get a production CSID from ZATCA, using which invoices can be submitted to ZATCA through reporting or clearance APIs.","استخدم طلب الامتثال من مرحلة التأهيل للحصول على CSID للإنتاج من ZATCA، والذي يمكن استخدامه لإرسال الفواتير عبر واجهات برمجة التطبيقات (API) للإبلاغ أو الفسح."
+Use the compliance request from onboarding to perform compliance checks for the different invoice types. This is a prerequisite to retrieving a production CSID,استخدم طلب الامتثال من مرحلة التأهيل لإجراء فحوصات الامتثال لأنواع الفواتير المختلفة. هذا شرط أساسي لاسترداد CSID للإنتاج
+User Forum,منتدى المستخدمين
+VAT Exemption Reason Code,رمز سبب الإعفاء من الضريبة
+VAT Exemption Reason Text,نص سبب الإعفاء من الضريبة
+VAT Registration Number,الرقم الضريبي
+Validate Generated XML,التحقق من صحة XML المولد
+Validation,التحقق
+Value,القيمة
+Vat Registration Number,الرقم الضريبي
+View Website,عرض الموقع
+XML,XML
+You cannot Delete a configured ZATCA Business Settings,لا يمكنك حذف إعدادات أعمال ZATCA مهيأة
+You cannot Delete a configured ZATCA EGS,لا يمكنك حذف وحدة إنشاء فواتير (EGS) مهيأة
+You cannot Delete a configured ZATCA Precomputed Invoice,لا يمكنك حذف فاتورة ZATCA محسوبة مسبقاً مهيأة
+You cannot cancel sales invoice according to ZATCA Regulations.,لا يمكنك إلغاء فاتورة المبيعات وفقاً للوائح هيئة الزكاة.
+You cannot delete a configured Invoice Counting Settings,لا يمكنك حذف إعدادات عد الفواتير المهيأة
+ZATCA Business Settings,إعدادات أعمال ZATCA
+ZATCA Business Settings Reference,مرجع إعدادات أعمال ZATCA
+ZATCA EGS,ZATCA EGS
+ZATCA Integration Log,سجل ربط ZATCA
+ZATCA Invoice Counting Settings,إعدادات عد فواتير ZATCA
+ZATCA Message,رسالة ZATCA
+ZATCA Phase 1 Business Settings,إعدادات أعمال المرحلة الأولى لـ ZATCA
+ZATCA Precomputed Invoice,فاتورة ZATCA المحسوبة مسبقاً
+ZATCA Status,حالة ZATCA
+{0} does not exist or is not a file,{0} غير موجود أو ليس ملفاً
+Standard rate,النسبة الأساسية
+Services outside scope of tax / Not subject to VAT || {manual entry},خدمات خارج نطاق الضريبة / غير خاضعة للضريبة || {إدخال يدوي}
+Exempt from Tax || Financial services mentioned in Article 29 of the VAT Regulations,معفاة من الضريبة || الخدمات المالية المذكورة في المادة 29 من لائحة ضريبة القيمة المضافة
+Exempt from Tax || Life insurance services mentioned in Article 29 of the VAT Regulations,معفاة من الضريبة || خدمات التأمين على الحياة المذكورة في المادة 29 من لائحة ضريبة القيمة المضافة
+Exempt from Tax || Real estate transactions mentioned in Article 30 of the VAT Regulations,معفاة من الضريبة || التصرفات العقارية المذكورة في المادة 30 من لائحة ضريبة القيمة المضافة
+Zero rated goods || Export of goods,سلع خاضعة للصفر || تصدير السلع
+Zero rated goods || Export of services,سلع خاضعة للصفر || تصدير الخدمات
+Zero rated goods || The international transport of Goods,سلع خاضعة للصفر || النقل الدولي للسلع
+Zero rated goods || International transport of passengers,سلع خاضعة للصفر || النقل الدولي للركاب
+Zero rated goods || Services directly connected and incidental to a Supply of international passenger transport,سلع خاضعة للصفر || الخدمات المرتبطة مباشرة والمرتبطة عرضياً بتوريد نقل دولي للركاب
+Zero rated goods || Supply of a qualifying means of transport,سلع خاضعة للصفر || توريد وسائل نقل مؤهلة
+Zero rated goods || Any services relating to Goods or passenger transportation as defined in article twenty five of these Regulations,سلع خاضعة للصفر || أي خدمات تتعلق بنقل السلع أو الركاب كما هو محدد في المادة الخامسة والعشرين من هذه اللائحة
+Zero rated goods || Medicines and medical equipment,سلع خاضعة للصفر || الأدوية والمعدات الطبية
+Zero rated goods || Qualifying metals,سلع خاضعة للصفر || المعادن المؤهلة
+Zero rated goods || Private education to citizen,سلع خاضعة للصفر || التعليم الأهلي للمواطنين
+Zero rated goods || Private healthcare to citizen,سلع خاضعة للصفر || الرعاية الصحية الخاصة للمواطنين
+Zero rated goods || Supply of qualified military goods,سلع خاضعة للصفر || توريد سلع عسكرية مؤهلة
+Customer does not have VAT registration Number,العميل ليس لديه رقم تسجيل ضريبة القيمة المضافة
+Standard Tax Invoice Credit Note,إشعار دائن لفاتورة ضريبية قياسية
+Standard Tax Invoice Debit Note,إشعار مدين لفاتورة ضريبية قياسية
+Simplified Tax Invoice Credit Note,إشعار دائن لفاتورة ضريبية مبسطة
+Simplified Tax Invoice Debit Note,إشعار مدين لفاتورة ضريبية مبسطة
+Standard Tax Invoice,فاتورة ضريبية قياسية
+Simplified Tax Invoice,فاتورة ضريبية مبسطة
+Posting Date,تاريخ الترحيل
+Seller Name,اسم البائع
+Address,العنوان
+Vat Registration Number,الرقم الضريبي
+Buyer Name,اسم المشتري
+Commercial Registration Number,رقم السجل التجاري
+Products,المنتجات
+Unit Price,سعر الوحدة
+Quantity,الكمية
+VAT %,نسبة الضريبة
+VAT Amount,مبلغ الضريبة
+Total With VAT,الإجمالي شامل الضريبة
+Invoice ID,معرف الفاتورة
+Return Against,مرتجع مقابل
+Subtotal Before Tax,المجموع الفرعي قبل الضريبة
+Total Taxable Amount,إجمالي المبلغ الخاضع للضريبة
+Return/Debit Reason,سبب الارتجاع/الخصم
+Branch is mandatory when ZATCA Branch configuration is enabled,الفرع إلزامي عند تفعيل إعدادات فرع هيئة الزكاة
+Branch Is Mandatory,الفرع إلزامي
+Selected branch $branch is not configured for company: $company,الفرع المحدد $branch غير مهيأ للشركة: $company
+Invalid Branch For Company,فرع غير صالح للشركة
+Commercial registration number is mandatory for branch,رقم السجل التجاري إلزامي للفرع
+Mandatory CRN Error,خطأ: السجل التجاري إلزامي
+Mandatory CRN,السجل التجاري إلزامي
+CRN is mandatory when ZATCA branch configuration is enabled for company,السجل التجاري إلزامي عند تفعيل إعدادات فرع هيئة الزكاة للشركة
+This CRN is configured for branch,رقم السجل التجاري هذا مهيأ للفرع
+Duplicate CRN Error,خطأ: تكرار رقم السجل التجاري
+Please update ZATCA CLI to $version or later to support PDF/A-3b generation,يرجى تحديث ZATCA CLI إلى $version أو أحدث لدعم إنشاء PDF/A-3b
+MOMRAH License,رخصة البلدية (MOMRAH)
+MHRSD License,رخصة الموارد البشرية (MHRSD)
+700 Number,رقم 700
+MISA License,رخصة الاستثمار (MISA)
+Other ID,معرف آخر
+Tax Identification Number,رقم التعريف الضريبي
+National ID,الهوية الوطنية
+GCC ID,هوية خليجية
+Iqama,الإقامة
+Passport ID,رقم جواز السفر
+Submit Feedback,إرسال ملاحظات
+Subject,الموضوع
+Bug Report,تقرير خطأ
+Feature Request,طلب ميزة
+General Feedback,ملاحظات عامة
+Compliance Issue,مشكلة امتثال
+Other,أخرى
+Description,الوصف
+Attachments,المرفقات
+Submit,إرسال
+Cancel,إلغاء
+Upload max 3 files as image PDF or document up to 5MB each,تحميل بحد أقصى 3 ملفات (صور، PDF، أو مستندات) بحد أقصى 5 ميجابايت لكل منها
+How was your experience configuring these settings?,كيف كانت تجربتك في تكوين هذه الإعدادات؟
+Please create a default outgoing email account,يرجى إنشاء حساب بريد إلكتروني صادر افتراضي
+Our Contact Center is here to help you with any questions or issues you may have.,مركز الاتصال لدينا موجود لمساعدتك في أي أسئلة أو مشكلات قد تواجهها.
+Description must be less than {0} characters,يجب أن يكون الوصف أقل من {0} حرفاً
+Maximum {0} characters,الحد الأقصى {0} حرفاً
+Feedback dialog will not be shown again for this document.,لن يظهر مربع حوار الملاحظات مرة أخرى لهذا المستند.
+Failed to save preference. Please try again.,فشل حفظ التفضيلات. يرجى المحاولة مرة أخرى.
+Failed to submit feedback. Please try again.,فشل إرسال الملاحظات. يرجى المحاولة مرة أخرى.
+Don't Show Again,لا تظهر مرة أخرى
+Please select a subject,يرجى اختيار موضوع
+Please provide a description,يرجى تقديم وصف
+Please upload a file,يرجى تحميل ملف
+Please wait...,يرجى الانتظار...
+Submitting...,جاري الإرسال...
+An error occurred while submitting your feedback,حدث خطأ أثناء إرسال ملاحظاتك
+"Upload up to {0} files (PDF, PNG, JPEG, DOCX), max {1}MB each","تحميل ما يصل إلى {0} ملفات (PDF، PNG، JPEG، DOCX)، بحد أقصى {1} ميجابايت لكل منها"
+File uploaded: {0},تم تحميل الملف: {0}
+Failed to upload file: {0},فشل تحميل الملف: {0}
+Set all private,تعيين الكل كخاص
+Set all public,تعيين الكل كعام
+Upload Files,تحميل الملفات
+You cannot submit SIAF manually; if you want to resubmit it to ZATCA use $sync_invoices_page,لا يمكنك إرسال SIAF يدوياً؛ إذا كنت ترغب في إعادة إرساله إلى هيئة الزكاة استخدم $sync_invoices_page
+Sync Invoices Page,صفحة مزامنة الفواتير
+This feedback will be sent to the Application vendor.,سيتم إرسال هذه الملاحظات إلى مورد التطبيق.
+How was your experience configuring these settings?,كيف كانت تجربتك في تكوين هذه الإعدادات؟
+Need help?,تحتاج مساعدة؟
+Visit our Help Center,قم بزيارة مركز المساعدة
+CSID Is Revoked,تم إلغاء CSID
+Cannot submit sales invoice to ZATCA,لا يمكن إرسال فاتورة المبيعات إلى هيئة الزكاة
+"You cannot revoke CSID, please send not synchronized invoices to ZATCA.","لا يمكنك إلغاء CSID، يرجى إرسال الفواتير غير المتزامنة إلى هيئة الزكاة."
+Cannot Revoke CSID,لا يمكن إلغاء CSID
+CSID and Business Settings is now revoked.,تم الآن إلغاء CSID وإعدادات الأعمال.
+Successfully Revoked,تم الإلغاء بنجاح
+Are you sure you want to revoke this Business Settings and CSID? This cannot be undone.,هل أنت متأكد أنك تريد إلغاء إعدادات الأعمال و CSID هذه؟ لا يمكن التراجع عن هذا الإجراء.
+You cannot revoke the CSID due to $num $draft_siaf_link. Please sync pending invoices with ZATCA first; use $sync_invoices_page.,لا يمكنك إلغاء CSID بسبب وجود $num $draft_siaf_link. يرجى مزامنة الفواتير المعلقة مع هيئة الزكاة أولاً؛ استخدم $sync_invoices_page.
+pending invoice(s),فاتورة (فواتير) معلقة
+You cannot cancel Prepayment Invoice according to ZATCA Regulations.,لا يمكنك إلغاء فاتورة الدفع المسبق وفقاً للوائح هيئة الزكاة.
+This Action Is Not Allowed,هذا الإجراء غير مسموح به
+Prepayment Invoice is not sent for,فاتورة الدفع المسبق لم يتم إرسالها لـ
+Tax subtotal is mandatory,المجموع الفرعي للضريبة إلزامي
+Taxable amount is mandatory,المبلغ الخاضع للضريبة إلزامي
+Tax amount is mandatory,مبلغ الضريبة إلزامي
+Tax category ID is mandatory,معرف فئة الضريبة إلزامي
+Tax percent is mandatory,نسبة الضريبة إلزامية
+Invoice line ID is mandatory,معرف بند الفاتورة إلزامي
+UUID is mandatory,المعرف الفريد (UUID) إلزامي
+Document reference is mandatory,مرجع المستند إلزامي
+Tax total is mandatory,إجمالي الضريبة إلزامي
+Prepaid amount is mandatory,مبلغ الدفع المقدم إلزامي
+Invoice lines are mandatory,بنود الفاتورة إلزامية
+Item name is mandatory,اسم الصنف إلزامي
+Item tax category is mandatory,فئة ضريبة الصنف إلزامية
+Item tax percent is mandatory,نسبة ضريبة الصنف إلزامية
+Item tax scheme is mandatory,نظام ضريبة الصنف إلزامي
+Document Reference ID is mandatory,معرف مرجع المستند إلزامي
+Issue date is mandatory,تاريخ الإصدار إلزامي
+Issue time is mandatory,وقت الإصدار إلزامي
+Document type code is mandatory,رمز نوع المستند إلزامي
+Prepayment Invoice Not Sent,لم يتم إرسال فاتورة الدفع المسبق
+By checking this box, you acknowledge that this Payment Entry will be treated as a Prepayment Invoice and submitted to ZATCA.,باختيار هذا المربع، فإنك تقر بأن إدخال الدفع هذا سيتم معاملته كفاتورة دفع مسبق وسيتم تقديمه إلى هيئة الزكاة (ZATCA).
+Company Name,اسم الشركة
+Notes,ملاحظات
+Uploaded files will be publicly accessible and visible to us from your server. Please do not upload sensitive information.,الملفات التي تم تحميلها ستكون متاحة للجمهور ومرئية لنا من الخادم الخاص بك. يرجى عدم تحميل معلومات حساسة.
+No files uploaded yet.,لم يتم تحميل أي ملفات بعد.
+We will use the company phone number and email to contact you regarding your feedback if they are provided.,سنستخدم رقم هاتف الشركة والبريد الإلكتروني للاتصال بك بخصوص ملاحظاتك إذا تم توفيرها.
+Company Information,معلومات الشركة
+Uploaded Files,الملفات المحملة
+Please set Address Line 1 for customer address.,يرجى تعيين سطر العنوان 1 لعنوان العميل.
+Please make sure that building number is set and is 4 digits exactly in customer address.,يرجى التأكد من تعيين رقم المبنى وأنه يتكون من 4 أرقام بالضبط في عنوان العميل.
+Please set city for customer address.,يرجى تعيين المدينة لعنوان العميل.
+Please make sure that postal code is set and is 5 digits exactly in customer address.,يرجى التأكد من تعيين الرمز البريدي وأنه يتكون من 5 أرقام بالضبط في عنوان العميل.
+Please set district for customer address.,يرجى تعيين الحي لعنوان العميل.
+Update Address,تحديث العنوان
+Bonus for works ahead of schedule,مكافأة للأعمال قبل الجدول الزمني
+Other bonus,مكافأة أخرى
+Manufacturer's consumer discount,خصم المستهلك من المصنع
+Due to military status,بسبب الحالة العسكرية
+Due to work accident,بسبب حادث عمل
+Special agreement,اتفاقية خاصة
+Production error discount,خصم خطأ في الإنتاج
+New outlet discount,خصم منفذ جديد
+Sample discount,خصم عينة
+End of range discount,خصم نهاية النطاق
+Incoterm discount,خصم شروط التجارة الدولية (Incoterm)
+Point of sales threshold allowance,خصم عتبة نقاط البيع
+Material surcharge/deduction,رسوم إضافية/خصم للمواد
+Discount,خصم
+Special rebate,تخفيض خاص
+Fixed long term,ثابت طويل الأجل
+Temporary,مؤقت
+Standard,قياسي
+Yearly turnover,دوران سنوي
+You cannot set Included in Paid Amount for Prepayment Invoice.,لا يمكنك تعيين "مضمن في المبلغ المدفوع" لفاتورة الدفع المسبق.
+You cannot set Add Or Deduct type to: Add for Prepayment Invoice. Allowed type is Deduct.,لا يمكنك تعيين نوع الإضافة أو الخصم إلى: "إضافة" لفاتورة الدفع المسبق. النوع المسموح به هو "خصم".
+You cannot set Charge Type to: On Net Total for Prepayment Invoice. Allowed type is Actual.,لا يمكنك تعيين نوع الرسوم إلى: "على صافي الإجمالي" لفاتورة الدفع المسبق. النوع المسموح به هو "فعلي".
+This Action Is Not Allowed,هذا الإجراء غير مسموح به
+Prepayment Invoice Acknowledgment,إقرار فاتورة الدفع المسبق
+Please set Tax Category on Sales Taxes and Charges Template $sales_taxes_and_charges_template.,يرجى تعيين فئة الضريبة في قالب ضرائب ورسوم المبيعات $sales_taxes_and_charges_template.
+Please set custom ZATCA category on Tax Category $tax_category_id.,يرجى تعيين فئة ZATCA المخصصة في فئة الضريبة $tax_category_id.
+You cannot set Charge Type to anything other than Actual for Prepayment Invoice. If there is no Sales Order; please set Charge Type to Actual.,"لا يمكنك تعيين نوع الرسوم لأي شيء آخر غير ""Actual"" (فعلي) لفاتورة الدفع المسبق. إذا لم يكن هناك أمر مبيعات، يرجى تعيين نوع الرسوم إلى ""Actual""."
+You cannot set Included in Paid Amount for Prepayment Invoice.,لا يمكنك تعيين "مضمن في المبلغ المدفوع" لفاتورة الدفع المسبق.
+You cannot set Add Or Deduct type to: Add for Prepayment Invoice. Allowed type is Deduct.,لا يمكنك تعيين نوع الإضافة أو الخصم إلى: "إضافة" لفاتورة الدفع المسبق. النوع المسموح به هو "خصم".
+You cannot set Charge Type to anything other than Actual or On Paid Amount for Prepayment Invoice.,لا يمكنك تعيين نوع الرسوم لأي شيء آخر غير "Actual" (فعلي) أو "On Paid Amount" (على المبلغ المدفوع) لفاتورة الدفع المسبق.
+This Action Is Not Allowed,هذا الإجراء غير مسموح به
+Payment Entry $name does not have any taxes. Please add taxes to the Payment Entry.,سند الدفع $name لا يحتوي على أي ضرائب. يرجى إضافة ضرائب إلى سند الدفع.
+Customer address is mandatory for B2B transactions; Please set a customer address for B2B customer $customer.,عنوان العميل إلزامي لمعاملات الأعمال (B2B)؛ يرجى تعيين عنوان للعميل $customer.
+Address Not Found Error,خطأ: العنوان غير موجود
+Invalid Address Error,خطأ: عنوان غير صالح
