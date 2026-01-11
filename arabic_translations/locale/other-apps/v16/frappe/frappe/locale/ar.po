@@ -5142,7 +5142,7 @@ msgstr "انهيار"
 #: frappe/public/js/frappe/views/reports/query_report.js:2050
 #: frappe/public/js/frappe/views/treeview.js:123
 msgid "Collapse All"
-msgstr "انهيار جميع"
+msgstr "طي الكل"
 
 #. Label of the collapsible (Check) field in DocType 'DocField'
 #. Label of the collapsible (Check) field in DocType 'Custom Field'
@@ -20880,7 +20880,7 @@ msgstr "اسم المزود"
 #: frappe/public/js/frappe/views/interaction.js:78
 #: frappe/public/js/frappe/views/workspace/workspace.js:440
 msgid "Public"
-msgstr "جمهور"
+msgstr "عام"
 
 #. Label of the public_files_size (Float) field in DocType 'System Health
 #. Report'
@@ -31580,7 +31580,7 @@ msgstr "سماوي"
 #: frappe/public/js/frappe/utils/utils.js:1116
 msgctxt "Days (Field: Duration)"
 msgid "d"
-msgstr "د"
+msgstr "ي"
 
 #. Option for the 'Indicator Color' (Select) field in DocType 'Workspace'
 #: frappe/desk/doctype/workspace/workspace.json
@@ -31750,7 +31750,7 @@ msgstr "لم يتم العثور على gzip في المسار! هذا مطلو�
 #: frappe/public/js/frappe/utils/utils.js:1120
 msgctxt "Hours (Field: Duration)"
 msgid "h"
-msgstr "ح"
+msgstr "س"
 
 #: frappe/public/js/frappe/ui/toolbar/search_utils.js:296
 msgid "hub"
@@ -31824,7 +31824,7 @@ msgstr "طويل"
 #: frappe/public/js/frappe/utils/utils.js:1124
 msgctxt "Minutes (Field: Duration)"
 msgid "m"
-msgstr "م"
+msgstr "د"
 
 #: frappe/model/rename_doc.py:215
 msgid "merged {0} into {1}"
@@ -32014,7 +32014,7 @@ msgstr "استعادة {0} ك {1}"
 #: frappe/public/js/frappe/utils/utils.js:1128
 msgctxt "Seconds (Field: Duration)"
 msgid "s"
-msgstr "س"
+msgstr "ث"
 
 #. Option for the 'Code challenge method' (Select) field in DocType 'OAuth
 #. Authorization Code'

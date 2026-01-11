@@ -1,0 +1,12 @@
+html:lang(ar) svg:has(> use[href="#es-line-arrow-up-right"]) {
+	transform: scaleX(-1) !important;
+}
+
+html:lang(ar) .isd_switch_btn {
+	right: unset !important;
+	left: 5px !important;
+}
+
+html:lang(ar) .islamic_date-conversion {
+	padding-right: 8px !important;
+}
